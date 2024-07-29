@@ -25,7 +25,7 @@ func add_zeros_to_id (id: String) -> String {
     }
     
     else {
-        id_with_zeros = id
+        id_with_zeros = "#" + id
     }
     
     return id_with_zeros
@@ -56,5 +56,5 @@ struct Pokemon_Card: View {
 }
 
 #Preview {
-    Pokemon_Card(name:"bulbasaur", id: "10", types: ["grass", "poison"], width: 350, height: 100)
+    Pokemon_Card(name:"bulbasaur", id: "1000", types: ["grass", "poison"], width: 350, height: 100)
 }
