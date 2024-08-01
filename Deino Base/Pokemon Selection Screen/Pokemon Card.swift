@@ -45,16 +45,18 @@ struct Pokemon_Card: View {
                 Spacer()
                 Text(add_zeros_to_id(id: id))
             }.padding()
+                .foregroundStyle(Color.white)
             Spacer()
             
             
         }
         .frame(width: width, height: height)
-        .background(Color.gray)
+        .background(Color(red:75/255, green:75/255, blue:75/255))
         .cornerRadius(15)
+        
     }
 }
 
 #Preview {
-    Pokemon_Card(name:"bulbasaur", id: "1000", types: ["grass", "poison"], width: 350, height: 100)
+    Pokemon_Card(name:"bulbasaur", id: "1", types: ["grass", "poison"], width: 350, height: 100)
 }

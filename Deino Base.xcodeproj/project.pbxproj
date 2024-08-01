@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055704A12C5C02310038C70F /* big_json.json in Resources */ = {isa = PBXBuildFile; fileRef = 055704A02C5C02310038C70F /* big_json.json */; };
 		0559D0AC2C500C2A00EEEC1A /* Deino_BaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0559D0AB2C500C2A00EEEC1A /* Deino_BaseApp.swift */; };
 		0559D0AE2C500C2A00EEEC1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0559D0AD2C500C2A00EEEC1A /* ContentView.swift */; };
 		0559D0B02C500C2B00EEEC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0559D0AF2C500C2B00EEEC1A /* Assets.xcassets */; };
@@ -17,11 +18,11 @@
 		05D8BBDA2C514FBE009D208C /* Pokemon Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8BBD92C514FBE009D208C /* Pokemon Card.swift */; };
 		05D8BBDC2C516357009D208C /* PokemonSelectionScreenDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8BBDB2C516357009D208C /* PokemonSelectionScreenDataModel.swift */; };
 		05D8BBDE2C51642B009D208C /* PokemonSelectionScreenModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8BBDD2C51642B009D208C /* PokemonSelectionScreenModelData.swift */; };
-		05D8BBE02C516457009D208C /* big_json.json in Resources */ = {isa = PBXBuildFile; fileRef = 05D8BBDF2C516457009D208C /* big_json.json */; };
 		05D8BBE22C5164E0009D208C /* PokemonCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8BBE12C5164E0009D208C /* PokemonCardList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055704A02C5C02310038C70F /* big_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = big_json.json; sourceTree = "<group>"; };
 		0559D0A82C500C2A00EEEC1A /* Deino Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deino Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0559D0AB2C500C2A00EEEC1A /* Deino_BaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deino_BaseApp.swift; sourceTree = "<group>"; };
 		0559D0AD2C500C2A00EEEC1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		05D8BBD92C514FBE009D208C /* Pokemon Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon Card.swift"; sourceTree = "<group>"; };
 		05D8BBDB2C516357009D208C /* PokemonSelectionScreenDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSelectionScreenDataModel.swift; sourceTree = "<group>"; };
 		05D8BBDD2C51642B009D208C /* PokemonSelectionScreenModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSelectionScreenModelData.swift; sourceTree = "<group>"; };
-		05D8BBDF2C516457009D208C /* big_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = big_json.json; path = ../../../Desktop/big_json.json; sourceTree = "<group>"; };
 		05D8BBE12C5164E0009D208C /* PokemonCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,6 @@
 				0559D0AD2C500C2A00EEEC1A /* ContentView.swift */,
 				05A747A62C57FE64008C0FF8 /* Pokemon Info Screen */,
 				059CAD362C57FCCD00B5F921 /* Pokemon Selection Screen */,
-				05D8BBDF2C516457009D208C /* big_json.json */,
 				0559D0AF2C500C2B00EEEC1A /* Assets.xcassets */,
 				0559D0B12C500C2B00EEEC1A /* Preview Content */,
 			);
@@ -89,6 +88,7 @@
 		059CAD362C57FCCD00B5F921 /* Pokemon Selection Screen */ = {
 			isa = PBXGroup;
 			children = (
+				055704A02C5C02310038C70F /* big_json.json */,
 				05D8BBDB2C516357009D208C /* PokemonSelectionScreenDataModel.swift */,
 				05D8BBDD2C51642B009D208C /* PokemonSelectionScreenModelData.swift */,
 				05D8BBD92C514FBE009D208C /* Pokemon Card.swift */,
@@ -165,7 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D8BBE02C516457009D208C /* big_json.json in Resources */,
+				055704A12C5C02310038C70F /* big_json.json in Resources */,
 				0559D0B32C500C2B00EEEC1A /* Preview Assets.xcassets in Resources */,
 				0559D0B02C500C2B00EEEC1A /* Assets.xcassets in Resources */,
 			);
